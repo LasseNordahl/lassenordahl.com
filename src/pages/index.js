@@ -230,7 +230,7 @@ function IndexPage() {
               <div className="shadow-xl hover:shadow-2xl flex flex-col items-center p-4 rounded-lg text-center">
                 <img className="w-20 mt-6 rounded-lg" src={crdb} />
                 <h4 className="text-xl font-semibold mb-0 mt-6">
-                  Cockroach DB
+                  Cockroach Labs
                 </h4>
                 <p className="mt-0 mb-0 text-sm">Starting 2021</p>
               </div>
