@@ -9,6 +9,7 @@ import Fade from "react-reveal/Fade";
 import intel from "../assets/intel.png";
 import bl from "../assets/bl.png";
 import nyt from "../assets/nyt.png";
+import crdb from "../assets/cockroach.png";
 
 const projects = [
   {
@@ -219,6 +220,19 @@ function IndexPage() {
                   New York Times
                 </h4>
                 <p className="mt-0 mb-0 text-sm">2020 - Present</p>
+              </div>
+            </a>
+            <a
+              href="https://rd.nytimes.com/"
+              target="_blank"
+              className="w-48 m-4 h-auto bg-white"
+            >
+              <div className="shadow-xl hover:shadow-2xl flex flex-col items-center p-4 rounded-lg text-center">
+                <img className="w-20 mt-6 rounded-lg" src={crdb} />
+                <h4 className="text-xl font-semibold mb-0 mt-6">
+                  Cockroach DB
+                </h4>
+                <p className="mt-0 mb-0 text-sm">Starting 2021</p>
               </div>
             </a>
           </div>
